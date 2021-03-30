@@ -12,6 +12,7 @@ public class Customer {
         System.out.println("Please enter object\'s height: ");
         int height = Integer.parseInt(scanner.next());
         System.out.println("Length: " + length + ", width: " + width + ", height: " + height);
+        if (length<=10,)
         }
 
 

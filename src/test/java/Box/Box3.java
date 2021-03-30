@@ -10,3 +10,4 @@ public class Box3 extends Box {
         super(length, weight, width);
     }
 }
+}
