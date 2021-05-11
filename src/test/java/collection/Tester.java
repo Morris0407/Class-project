@@ -10,10 +10,10 @@ public class Tester {
         aa.add(1);
         aa.add(9);
         aa.add(1);
-        System.out.println(aa.size());
+        System.out.println(aa.size());//treeset沒有排序功能
         System.out.println(aa);
         for (Integer a : aa){
-            System.out.println(a);
+           System.out.println(a);
         }
     }
 
