@@ -11,5 +11,10 @@ public class GraduateStudent extends Student  {
     public void mail(){
 
     }
+    public void print(){
+        System.out.println(id + "\t" + name + "\t" + english + "\t" + math + "\t" +thesis);
+    }
+
+
 
 }

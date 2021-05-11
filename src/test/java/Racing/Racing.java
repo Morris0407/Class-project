@@ -8,6 +8,5 @@ public class Racing {
         Thread thread = new Thread(h3);
         h1.start();
         h2.start();
-
     }
 }
