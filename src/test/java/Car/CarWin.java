@@ -4,11 +4,11 @@ import javax.swing.*;
 import java.awt.*;
 
 public class CarWin {
-    static final int WIDTH = 600;//常數的訂定
+    static final int WIDTH = 1200;//常數的訂定
 
     public static void main(String[] args) {
         JFrame frame = new JFrame();
-        frame.setSize(WIDTH,400);
+        frame.setSize(WIDTH,600);
         frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         JButton button1 = new JButton("Option");
         JButton button2 = new JButton("leave");
