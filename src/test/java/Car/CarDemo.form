@@ -7,17 +7,45 @@
     <properties/>
     <border type="none"/>
     <children>
-      <grid id="e7ad2" binding="NorthPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+      <grid id="e7ad2" binding="NorthPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
         <constraints border-constraint="North"/>
         <properties/>
         <border type="none"/>
         <children>
           <component id="564e7" class="javax.swing.JTextField" binding="textField1" default-binding="true">
-            <constraints border-constraint="Center"/>
-            <properties/>
+            <constraints/>
+            <properties>
+              <columns value="30"/>
+            </properties>
           </component>
           <component id="4b93c" class="javax.swing.JButton" binding="button1" default-binding="true">
-            <constraints border-constraint="East"/>
+            <constraints/>
+            <properties>
+              <text value="Button"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="18978" binding="SouthPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="South"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="df35b" class="javax.swing.JButton" binding="button2" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="Button"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="f2ce8" binding="WestPanel" layout-manager="FlowLayout" hgap="2" vgap="2" flow-align="1">
+        <constraints border-constraint="West"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="30c57" class="javax.swing.JButton" binding="button3" default-binding="true">
+            <constraints/>
             <properties>
               <text value="Button"/>
             </properties>

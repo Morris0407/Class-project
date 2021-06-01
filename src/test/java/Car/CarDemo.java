@@ -7,6 +7,11 @@ public class CarDemo {
     private JPanel NorthPanel;
     private JTextField textField1;
     private JButton button1;
+    private JPanel SouthPanel;
+    private JButton button2;
+    private JPanel WestPanel;
+    private JButton button3;
+    String name;
 
     public static void main(String[] args) {
         JFrame frame = new JFrame();
@@ -14,5 +19,6 @@ public class CarDemo {
         frame.setContentPane(new CarDemo().Mainpanel);
         frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         frame.setVisible(true);
+
     }
 }
