@@ -47,6 +47,7 @@
           <component id="30c57" class="javax.swing.JButton" binding="button3" default-binding="true">
             <constraints/>
             <properties>
+              <horizontalAlignment value="0"/>
               <text value="Button"/>
             </properties>
           </component>
