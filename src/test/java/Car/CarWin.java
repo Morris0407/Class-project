@@ -4,7 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 
 public class CarWin {
-    static final int WIDTH = 1200;//常數的訂定
+    static final int WIDTH = 1200;
 
     public static void main(String[] args) {
         JFrame frame = new JFrame();

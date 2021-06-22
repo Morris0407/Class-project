@@ -10,7 +10,7 @@ public class Car {
    public Car(String id,String time){
        this.id = id;
        Calendar now =Calendar.getInstance();
-       //小時與分鐘
+       //&#x5C0F;&#x6642;&#x8207;&#x5206;&#x9418;
        String[] tokens =time.split(":");
        System.out.println("t0" + tokens[0]);
        System.out.println("t1" + tokens[1]);
